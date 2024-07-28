@@ -1,0 +1,249 @@
+.content-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(138, 43, 226, 0.6), rgba(138, 43, 226, 0.6)),
+    url("https://images.unsplash.com/photo-1490281127531-44704fa668fe?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      no-repeat center center/cover;
+  color: #fff;
+  position: relative;
+}
+.inside-content-2 {
+  text-align: center;
+}
+.inside-content-2 > h1 {
+  font-size: 3em;
+  margin: 0;
+  text-align: left;
+}
+.inside-content-2 > p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  line-height: 1.5;
+  text-align: start;
+}
+.content-box-left,
+.content-box-right {
+  display: inline-block;
+  margin: 20px;
+  text-align: left;
+}
+.content-box-left h3,
+.content-box-right h3 {
+  margin: 10px 0;
+}
+.slider-container {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-3 > .inside-content-2 > img {
+  width: 20%;
+  height: 60vh;
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  transform: scaleX(-1);
+}
+
+/*!! Create Account */
+.main-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(138, 43, 226, 0.6), rgba(138, 43, 226, 0.6)),
+    url("https://images.unsplash.com/photo-1533144772779-2d20c01f3c99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 3rem;
+}
+
+.form {
+  /* background: rgba(255, 255, 255, 0.8); */
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 75%;
+  /* max-width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.login_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.login_text {
+  flex: 1;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.login_text h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.login_text p {
+  margin-top: 20px;
+  color: #fff;
+  word-spacing: 1.8px;
+  line-height: 24px;
+}
+
+.form-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container-2 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 450px;
+}
+
+.login-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-tabs span {
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.login-tabs .active {
+  border-color: #3498db;
+}
+
+.signup,
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup input,
+.signin input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.login-btn {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  margin: 10px 0;
+  background: #2ecc71;
+  color: white;
+  cursor: pointer;
+}
+
+.login-btn-2 {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  margin: 10px 0;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.or {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/*! Client-Review */
+
+.content-4 {
+  background-color: #1d1a42;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.content-4 > h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  padding-left: 175px;
+  padding-top: 30px;
+}
+
+.client-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.clients-reviews {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 28vh;
+  border: 2px solid rgba(253, 253, 252, 0.188);
+  border-radius: 5px;
+  text-align: start;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-reviews img {
+  max-width: 10%;
+  height: auto;
+  margin-bottom: 15px;
+  float: left;
+  border-radius: 4px;
+}
+
+.clients-reviews p {
+  font-size: 0.9em;
+  margin-top: -61px;
+  line-height: 1.5rem;
+  margin-left: 60px;
+}
+
+.clients-reviews span {
+  display: block;
+  font-size: 0.8em;
+  color: #9a9a9a;
+  margin-top: 80px;
+  text-align: start;
+  margin-left: 60px;
+}
